@@ -1,0 +1,77 @@
+{
+  "project": {
+    "name": "Reflections",
+    "artist": "The Neighbourhood",
+    "version": "1.0"
+  },
+  "assets": {
+    "music": "assets/reflections.mp3"
+  },
+  "theme": {
+    "background": "#050509",
+    "stars": "#FFFFFF",
+    "lines": "#A78BFA",
+    "purple": "#8B5CF6",
+    "deepPurple": "#4C1D95"
+  },
+  "layout": {
+    "fullscreen": true,
+    "centered": true,
+    "minimal": true,
+    "showTitle": true
+  },
+  "musicPlayer": {
+    "autoplay": false,
+    "volume": 0.7,
+    "controls": true,
+    "loop": false
+  },
+  "constellation": {
+    "enabled": true,
+    "starPerWord": true,
+    "connectSequentially": true,
+    "glow": true,
+    "animationSpeed": 1,
+    "randomStarPositions": true
+  },
+  "outerRing": {
+    "enabled": true,
+    "color": "#8B5CF6",
+    "glow": true,
+    "rotation": true,
+    "rotationSpeed": 20,
+    "distanceFromEdge": 20
+  },
+  "specialEffects": {
+    "reflection": true,
+    "shootingStars": true,
+    "particles": true,
+    "wordGlow": true
+  },
+  "lyrics": {
+    "synchronization": true,
+    "displayMode": "word-by-word",
+    "sections": [
+      "Verse 1",
+      "Pre-Chorus",
+      "Refrain",
+      "Chorus",
+      "Verse 2",
+      "Bridge",
+      "Outro"
+    ]
+  },
+  "controls": {
+    "play": true,
+    "pause": true,
+    "restart": true,
+    "volume": true,
+    "lyricsEditor": true
+  },
+  "export": {
+    "html": true,
+    "css": true,
+    "javascript": true,
+    "assets": true
+  }
+}
